@@ -1,0 +1,17 @@
+{
+  "name": "FlowDemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Elenayinzi/TS.git",
+  "author": "liaoyin <liaoyin@hzqykeji.com>",
+  "license": "MIT",
+  "dependencies": {
+    "flow-bin": "^0.163.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-flow": "^7.16.0",
+    "flow-remove-types": "^2.163.0"
+  }
+}
