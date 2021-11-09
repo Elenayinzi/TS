@@ -47,7 +47,7 @@
 
     4.安装typescript：yarn init; yarn add typescript --dev; yarn tsc 目录（执行ts文件）
     
-    5.配置文件：yarn tsc --init;生命配置文件后配置成功执行yarn tsc命令配置文件才生效
+    5.配置文件：yarn tsc --init;生成配置文件后配置成功执行yarn tsc命令配置文件才生效
 
     6.原始数据类型
 
@@ -85,3 +85,7 @@
 
     23.类型声明：declare function 名称(input: string): string
     //yarn add lodash
+
+    24.用Parcel打包TypeScript: yarn add --dev parcel@next
+
+    25.mac升级node:查看当前版本-node -v; 清除缓存-npm cache clean -f; 安装n模块-npm install -g n; 更新升级node-n latest
