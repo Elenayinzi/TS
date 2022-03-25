@@ -1,4 +1,8 @@
 # TS 解决js自有类型问题,js是弱类型语言，动态类型语言
+# npm view typescript version 查看本机TypeScript版本；npm view typescript versions 查看所有可使用的版本；
+# 查看本地是否安装typescript，使用npm ls typescript
+# 查看全局是否安装typescript，使用npm ls typescript -g
+# 卸载typescript，使用npm uninstall typescript
 ## 强类型与弱类型语言（类型安全角度）
     1.强类型：语法上限制函数的实参类型必须与形参类型相同，jAVA，不允许任意的数据隐式类型转换
     编译阶段就会报错
@@ -58,7 +62,7 @@
 
     3.渐进式语言：使用js的方式编写，加入新特性
 
-    4.安装typescript：yarn init; yarn add typescript --dev; yarn tsc 目录（执行ts文件）
+    4.安装typescript：npm install typescript; yarn init; yarn add typescript --dev; yarn tsc 目录（执行ts文件）
     
     5.配置文件：yarn tsc --init;生成配置文件后配置成功执行yarn tsc命令配置文件才生效
 
