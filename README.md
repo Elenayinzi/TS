@@ -60,7 +60,7 @@
 
     2.缺点：语言本身增加了很多概念接口，泛型等；初期会增加成本
 
-    3.渐进式语言：使用js的方式编写，加入新特性
+    3.渐进式语言：使用js的方式编写，加入新特性   
 
     4.安装typescript：npm install typescript; yarn init; yarn add typescript --dev; yarn tsc 目录（执行ts文件）
     
